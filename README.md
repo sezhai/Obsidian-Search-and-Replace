@@ -1,2 +1,2 @@
-# Obsidian-Search-and-Replace-Tool
+# Obsidian Search and Replace
 Obsidian Search and Replace Tool
