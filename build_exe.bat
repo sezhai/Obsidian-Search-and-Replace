@@ -1,6 +1,6 @@
 @echo off
 echo ================================
-echo Obsidian Search and Replace Tool - Build EXE
+echo Obsidian Search and Replace - Build EXE
 echo ================================
 echo.
 
@@ -15,11 +15,11 @@ echo.
 
 pyinstaller --onefile ^
     --windowed ^
-    --name "Obsidian Search and Replace Tool" ^
+    --name "Obsidian Search and Replace" ^
     --icon=exe.ico ^
     --hidden-import=tkinter ^
     --hidden-import=requests ^
-    "Obsidian Search and Replace Tool.py"
+    "Obsidian Search and Replace.py"
 
 if errorlevel 1 (
     echo [ERROR] Build failed.
@@ -29,6 +29,6 @@ if errorlevel 1 (
 
 echo.
 echo [OK] EXE build completed!
-echo Location: dist\Obsidian Search and Replace Tool.exe
+echo Location: dist\Obsidian Search and Replace.exe
 echo.
 pause
